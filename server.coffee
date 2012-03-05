@@ -6,5 +6,5 @@ io.sockets.on "connection", (socket) ->
 	console.log "client conntected!"
 
 	socket.on "message", (message) ->
-		socket.emit "message", message
+		io.sockets.emit "message", message
 		console.log message
