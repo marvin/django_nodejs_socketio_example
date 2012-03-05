@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	font-size: 11px;
+	color: #fff;
+}
+
+body *::-webkit-scrollbar{width:6px !important;}
+::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment{height:10px;display:block;background-color:transparent;}
+::-webkit-scrollbar-track-piece{border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;-ms-border-radius:6px;-o-border-radius:6px;}
+::-webkit-scrollbar-thumb:vertical{border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;-ms-border-radius:6px;-o-border-radius:6px;background-color:rgba(0, 0, 0, 0.2) !important;}
+
+.main {
+	margin: 20px auto 0 auto;
+	width: 800px;
+	min-height: 500px;
+	height: 500px;
+	background-color: #333;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+	padding: 20px;
+}
+
+.chatbox {
+	margin: 0 auto;
+	width: 784px;
+	min-height: 444px;
+	background-color: #E3E3E3;
+	color: #292929;
+	padding: 8px;
+}
+
+.textfield {
+	margin-top: 10px;
+	width: 788px;
+	padding: 6px;
+	display: block;
+	border: solid 1px #999;
+}
